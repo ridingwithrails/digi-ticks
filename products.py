@@ -19,4 +19,3 @@ products = [hotdog, milkshake, snickers, slime]
 #NaN
 for product in products:
     print("Name: ", product.name, "Price: ", product.price )
-#NaN
