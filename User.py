@@ -17,5 +17,5 @@ teacher2 = User("Mr.Alcala", "TEACHER", 0, [], [], "teacher", "teacher")
 #How do I print both names because print(teacher.name) prints Mr.Alcala?
 student1 = User("Owen", "STUDENT",  0, [], [], "student" , "student" )
 student2 = User("Mux", "STUDENT", 10000, [], [], "student", "student")
-student3 = User("Dugoo", "STUDENT", 0, [], [], "student", "student")
- 
+student3 = User("Dugoo", "STUDENT", 10000, [], [], "student", "student")
+student4 = User("Johnny", "STUDENT", 0, [], [], "student", "student")
