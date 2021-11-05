@@ -6,5 +6,3 @@ while data != 'E':
     data = input("Store has started.  [L] List Products  [E] Exit\n")
     if data == 'L':
         Product.list()
-    if data == 'U':
-        data = input('Give me your name')
