@@ -15,7 +15,7 @@ pencil    = Product(3, "s3", "mechanical pencil", 30)
 eraser    = Product(10, "s3", "scented eraser", 15)
 
 #P3
-products = [hotdog, milkshake, snickers, slime]
+products = [hotdog, milkshake, snickers, slime, pop, pencil, eraser ]
 #NaN
 for product in products:
     print("Name: ", product.name, "Price: ", product.price )
