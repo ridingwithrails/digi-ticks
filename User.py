@@ -8,7 +8,7 @@ class User:
         self.products = products
         self.username = username
         self.password = password
-    
+    #move is user here with static method
     @staticmethod
     def build():
         admin = User("Donovan", "ADMIN", 10000, [], [], "admin", "admin")
