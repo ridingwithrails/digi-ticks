@@ -22,6 +22,6 @@ class User:
         student3 = User("Dugoo", "STUDENT", 10000, [], [], "student3", "student")
         student4 = User("Johnny", "STUDENT", 0, [], [], "student", "student")
 
-        users = {"admin": admin}
+        users = {"admin": admin,"teacher1": teacher1}
         return users
 
