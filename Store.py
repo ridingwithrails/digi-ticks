@@ -6,14 +6,7 @@ data = ''
 guest = True
 users = User.build()
 
-def is_user(username, password):
-     print(username)
-     print(password)
-     if username in users:
-            user = users(username)
-            return user.password == password
-     else:
-        return True
+
 
 while guest:
     username = input("Please type in username:\n")

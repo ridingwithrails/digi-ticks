@@ -8,7 +8,17 @@ class User:
         self.products = products
         self.username = username
         self.password = password
-    #move is user here with static method
+    
+    @staticmethod
+    def is_user(username, password):
+     print(username)
+     print(password)
+     if username in users:
+            user = users(username)
+            return user.password == password
+     else:
+        return True 
+
     @staticmethod
     def build():
         admin = User("Donovan", "ADMIN", 10000, [], [], "admin", "admin")
