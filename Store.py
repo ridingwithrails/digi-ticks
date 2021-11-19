@@ -11,9 +11,10 @@ users = User.build()
 while guest:
     username = input("Please type in username:\n")
     password = getpass()
-    if is_user(username, password):
+    if User.is_user(username, password):
         guest = False
     else:
+        print("wrong username or password")
         guest = True
 
 
