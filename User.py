@@ -10,14 +10,12 @@ class User:
         self.password = password
     
     @staticmethod
-    def is_user(username, password):
+    def get_user(username, password):
      users = User.build()
      
      if username in users:
             user = users[username]
-            return user.password == password
-     else:         
-        return False 
+            return user 
         
 
     @staticmethod

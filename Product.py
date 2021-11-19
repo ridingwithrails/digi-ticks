@@ -15,8 +15,8 @@ class Product:
         pop = Product(5, "s3", "ring pop", 20)
         pencil = Product(3, "s3", "mechanical pencil", 30)
         eraser = Product(10, "s3", "scented eraser", 15)
-        products = [hotdog, milkshake, snickers, slime, pop, pencil, eraser]
-        return products
+        return [hotdog, milkshake, snickers, slime, pop, pencil, eraser]
+         
 
     @staticmethod
     def list():
