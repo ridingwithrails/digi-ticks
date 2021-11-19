@@ -6,12 +6,10 @@ data = ''
 guest = True
 users = User.build()
 
-
-
 while guest:
     username = input("Please type in username:\n")
     password = getpass()
-    user = User.get_user(username, password)
+    user = User.fetch(username, password)
     if user: 
         guest = False
     else:

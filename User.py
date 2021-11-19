@@ -10,15 +10,19 @@ class User:
         self.password = password
     
     @staticmethod
-    def get_user(username, password):
+    def fetch(username, password):
      users = User.build()
      
      if username in users:
             user = users[username]
-            return user 
+            return user
+
+     @staticmethod
+     def is_admin(user):
+
         
 
-    @staticmethod
+        @staticmethod
     def build():
         admin = User("Donovan", "ADMIN", 10000, [], [], "admin", "admin")
 
